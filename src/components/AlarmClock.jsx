@@ -31,7 +31,7 @@ class AlarmClock extends React.Component {
         alarms.minutes = this.props.dateAlarm.getMinutes();
         alarms.seconds = this.props.dateAlarm.getSeconds();
         this.setState({ alONOff: "Alarm ON" })
-        console.log(`Alarm to: ${alarms}.`);
+        console.log("Alarm to: ", alarms);
     }
 
     render() {
